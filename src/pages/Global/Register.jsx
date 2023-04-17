@@ -62,6 +62,7 @@ const Register = () => {
                      value={email}
                      onChange={handleEmailChange}
                      className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                     required
                   />
                </div>
                <div className='mb-6'>
@@ -77,6 +78,7 @@ const Register = () => {
                      value={password}
                      onChange={handlePasswordChange}
                      className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                     required
                   />
                </div>
                <ActionButton type={'submit'} name={'Register'} />
