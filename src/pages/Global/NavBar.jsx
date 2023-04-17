@@ -64,7 +64,7 @@ const NavBar = () => {
                   } w-full md:block md:w-auto`}
                   id='navbar-default'
                >
-                  <ul class='font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700'>
+                  <ul className='font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700'>
                      <NavItem path='/' name='Home' />
                      <NavItem path='/about' name='About' />
                      <NavItem path='/dashboard' name='Dashboard' />
@@ -78,7 +78,7 @@ const NavBar = () => {
                                     toast.success('You are sign out');
                                  }
                               }}
-                              class='text-green-700 hover:text-white w-full border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mr-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-500 dark:focus:ring-green-800 mt-4'
+                              className='text-green-700 hover:text-white w-full border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mr-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-500 dark:focus:ring-green-800 mt-4'
                            >
                               Sign out
                            </button>

@@ -40,9 +40,9 @@ const Login = () => {
    }
 
    return (
-      <div class='flex justify-center items-center h-screen bg-gray-800'>
-         <div class='bg-gray-300 shadow-md rounded px-8 pt-6 pb-8 mb-4 w-72 md:w-80 lg:w-96'>
-            <h2 class='text-xl font-bold mb-4 text-center'>Login</h2>
+      <div className='flex justify-center items-center h-screen bg-gray-800'>
+         <div className='bg-gray-300 shadow-md rounded px-8 pt-6 pb-8 mb-4 w-72 md:w-80 lg:w-96'>
+            <h2 className='text-xl font-bold mb-4 text-center'>Login</h2>
             <Link
                to='/'
                className='absolute top-3 left-3 font-semibold cursor-pointer text-green-600'
@@ -51,10 +51,10 @@ const Login = () => {
             </Link>
             <GoogleLogin />
             <form onSubmit={handleLogin}>
-               <div class='mb-4'>
+               <div className='mb-4'>
                   <label
                      htmlFor='email'
-                     class='block text-gray-700 font-bold mb-2'
+                     className='block text-gray-700 font-bold mb-2'
                   >
                      Email:
                   </label>
@@ -63,13 +63,13 @@ const Login = () => {
                      id='email'
                      value={email}
                      onChange={handleEmailChange}
-                     class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                     className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
                   />
                </div>
-               <div class='mb-6'>
+               <div className='mb-6'>
                   <label
                      htmlFor='password'
-                     class='block text-gray-700 font-bold mb-2'
+                     className='block text-gray-700 font-bold mb-2'
                   >
                      Password:
                   </label>
@@ -78,7 +78,7 @@ const Login = () => {
                      id='password'
                      value={password}
                      onChange={handlePasswordChange}
-                     class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                     className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
                   />
                </div>
                <ActionButton type={'submit'} name={'Login'} />
@@ -88,8 +88,8 @@ const Login = () => {
                   <ButtonLink path='/register' name='Register Now!' />
                </div>
             </form>
-            {error && <p class='text-red-500'>{error.message}</p>}
-            {user && <p class='text-green-500'>Welcome, {user.email}!</p>}
+            {error && <p className='text-red-500'>{error.message}</p>}
+            {user && <p className='text-green-500'>Welcome, {user.email}!</p>}
          </div>
       </div>
    );

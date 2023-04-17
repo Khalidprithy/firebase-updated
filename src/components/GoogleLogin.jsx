@@ -16,10 +16,10 @@ const GoogleLogin = () => {
          <button
             onClick={() => signInWithGoogle()}
             type='button'
-            class='hover:text-white hover:bg-green-600 text-green-600 bg-white focus:ring-4 focus:outline-none focus:ring-green-600 font-medium rounded-md border border-green-500 text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-green-600 mr-2 mb-2'
+            className='hover:text-white hover:bg-green-600 text-green-600 bg-white focus:ring-4 focus:outline-none focus:ring-green-600 font-medium rounded-md border border-green-500 text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-green-600 mr-2 mb-2'
          >
             <svg
-               class='w-4 h-4 mr-2 -ml-1'
+               className='w-4 h-4 mr-2 -ml-1'
                aria-hidden='true'
                focusable='false'
                data-prefix='fab'
