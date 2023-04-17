@@ -5,7 +5,7 @@ const Loading = () => {
       <div className='flex items-center justify-center h-screen'>
          <div
             className='w-12 h-12 rounded-full animate-spin
-                    border-2 border-dashed border-blue-500 border-t-transparent'
+                    border-2 border-dashed border-green-500 border-t-transparent'
          ></div>
       </div>
    );
