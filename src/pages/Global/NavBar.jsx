@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useAuthState, useSignOut } from 'react-firebase-hooks/auth';
+import { toast } from 'react-hot-toast';
 import { Link } from 'react-router-dom';
 import NavItem from '../../components/NavItem';
 import PrimaryButton from '../../components/PrimaryButton';
